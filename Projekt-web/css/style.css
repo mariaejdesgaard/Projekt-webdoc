@@ -113,6 +113,18 @@ html {
 
 }
 
+.overskrift {
+    margin: 3%;
+}
+
+.overskrift h1 {
+    font-size: 6em;
+}
+
+.overskrift h3 {
+    font-size: 2em;
+}
+
 .container .pa {
     background-image: url("../img/paris.jpg");
 }
