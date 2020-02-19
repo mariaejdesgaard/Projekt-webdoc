@@ -19,7 +19,7 @@
 html {
     font-size: 10px;
     font-weight: 100;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
     scroll-behavior: smooth;
     overflow-x: hidden;
 }
@@ -29,9 +29,9 @@ html {
     margin: 0 auto;
     color: #BC5B1C;
     text-align: center;
-    letter-spacing: 1em;
-    text-transform: uppercase;
+
 }
+
 
 .between {
     height: 30em;
@@ -53,15 +53,18 @@ html {
 
 .overskrift {
     margin: 3%;
+    text-transform: uppercase;
 }
 
 .overskrift h1 {
     font-size: 6em;
 }
 
-.overskrift h3 {
+.overskrift h2 {
     font-size: 2em;
 }
+
+
 
 .container .pa {
     background-image: url("../img/paris.jpg");
@@ -114,5 +117,23 @@ footer {
     margin-right: 6em;
     font-size: 1.3em;
     letter-spacing: 0.3em;
+
+}
+
+.title {
+    font-size: 1.2em;
+    margin-top: -1em;
+}
+
+.title h2 {
+    padding-bottom: 1em;
+}
+
+.ramme {
+    width: 60%;
+    height: 80%;
+    padding-top: 45px;
+    margin: 0 .5em;
+    margin-left: 5em;
 
 }
