@@ -29,7 +29,6 @@ html {
     margin: 0 auto;
     color: #BC5B1C;
     text-align: center;
-
 }
 
 
@@ -38,9 +37,7 @@ html {
     position: relative;
     color: black;
     font-size: 15px;
-
 }
-
 
 
 .middle {
@@ -48,7 +45,6 @@ html {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
 }
 
 .overskrift {
@@ -63,7 +59,6 @@ html {
 .overskrift h2 {
     font-size: 2em;
 }
-
 
 
 .container .pa {
@@ -99,8 +94,6 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: center;
-
-
 }
 
 .adresse,
@@ -117,7 +110,6 @@ footer {
     margin-right: 6em;
     font-size: 1.3em;
     letter-spacing: 0.3em;
-
 }
 
 .title {
