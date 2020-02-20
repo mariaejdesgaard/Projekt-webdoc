@@ -23,6 +23,19 @@ function erSynlig(elementId) {
     }
 }*/
 
+//Lydafspiling
+const audioObj = new Audio("Bouncy_Fun_1.mp3");
+
+document.getElementById("spil").addEventListener("click", function () {
+    audioObj.play()
+})
+
+document.getElementById("mute").addEventListener("click", function () {
+    audioObj.pause()
+})
+
+
+
 //Hovedprogramdel
 const tekstIdListe = ["tekst1", "tekst2", "tekst3", "tekst4"];
 

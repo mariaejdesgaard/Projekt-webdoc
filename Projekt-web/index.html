@@ -6,6 +6,7 @@
     <title>Al Sultan</title>
     <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/6a331c31d1.js"></script>
 </head>
 
 <body>
@@ -13,10 +14,15 @@
     <div class="container" id="top">
 
         <div class="overskrift">
+            <!--indsæt logo istedet for tekst-->
             <h1>Al Sultan</h1>
             <h2>Bazar Vest</h2>
         </div>
 
+        <div class="layout">
+            <i class="fas ikon fa-volume-up fa-3x" id="spil">&nbsp;</i>
+            <i class="fas ikon fa-volume-mute fa-3x" id="mute">&nbsp;</i>
+        </div>
 
         <video src="walking.mp4" class="video"></video>
 
@@ -32,8 +38,8 @@
             </div>
             <img class="ramme" src="ramme.png" alt="Ramme">
 
-
-            <img src="img/chevron-down-solid.svg" alt="pil peger ned" id="ned">
+            <br>
+            <a href="#mad"> <img class="heartbeat" src="img/chevron-down-solid.svg" alt="pil peger ned" id="ned"></a>
         </div>
 
 
@@ -41,7 +47,7 @@
 
         <div class="between">
             <div class="title middle">
-                <h2>Maden</h2>
+                <h2 id="mad">Maden</h2>
                 <p>De er kendt for deres hummus, tzatziki og selvfølgelig deres lækre brød dertil. Deres koncept er bygget op omkring brunch, pita og familiefad, hvor de laver det med kød, som oksekød og kalvekød.
                 </p>
                 <br>
@@ -50,9 +56,9 @@
             </div>
 
             <img class="ramme" src="ramme.png" alt="Ramme">
+            <br>
 
-
-            <img src="img/chevron-down-solid.svg" alt="pil peger ned" id="ned">
+            <a href="#oplevelse"> <img class="heartbeat" src="img/chevron-down-solid.svg" alt="pil peger ned" id="ned"> </a>
         </div>
         <div class="ist parallax"></div>
 
@@ -60,24 +66,24 @@
 
         <div class="between">
             <div class="title middle">
-                <h2>Oplevelsen</h2>
+                <h2 id="oplevelse">Oplevelsen</h2>
                 <p>Al Sultan lever for oplevelsen og konceptet. Det er vigtigt for dem at skabe en god service for deres kunder, samtidig med at stemningen skal føre kunderne ind i et mangfoldigt samfund, der forener forskellige kulturer. Du finder derfor interiør, som er importeret fra (Libanon?, Syrien og Palæstina), for at give kunderne den rigtige oplevelse.
                 </p>
             </div>
 
             <img class="ramme" src="ramme.png" alt="Ramme">
+            <br>
 
-
-            <img src="img/chevron-down-solid.svg" alt="pil peger ned" id="ned">
+            <a href="#bund"> <img class="heartbeat" src="img/chevron-down-solid.svg" alt="pil peger ned" id="ned"></a>
         </div>
 
 
         <div class="fir parallax"></div>
 
-        <a href="#top"> <img src="img/chevron-up-solid.svg" alt="pil peger op" id="op"> </a>
+        <a href="#top"> <img class="heartbeat" src="img/chevron-up-solid.svg" alt="pil peger op"> </a>
 
 
-        <footer>
+        <footer id="bund">
             <p class="tlf">
                 Tlf: 87 38 92 92
             </p>
@@ -111,6 +117,4 @@
 
 
 
-</body>
-
-</html>
+</body></html>
